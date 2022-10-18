@@ -1,0 +1,18 @@
+
+Easy 
+
+Qn no: 1
+
+Show first name, last name, and gender of patients who's gender is 'M'
+
+solution: 
+
+select first_name,last_name,gender
+ from patients 
+ where gender="M";
+
+
+
+
+
+

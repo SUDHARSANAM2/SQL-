@@ -1,0 +1,5 @@
+Qn no:11
+Show the total number of admissions
+solution:
+
+select count(*) from admissions;

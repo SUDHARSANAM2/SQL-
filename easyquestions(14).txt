@@ -1,0 +1,6 @@
+Qn no:14
+Show the total number of admissions for patient_id 579.
+solution:
+
+select count(*),patient_id from admissions
+ where patient_id=579;
