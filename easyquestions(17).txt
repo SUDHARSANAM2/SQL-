@@ -1,0 +1,11 @@
+Qn no:18
+Show first name, last name, and the full province name of each patient.
+
+Example: 'Ontario' instead of 'ON'
+
+Solution:
+
+select (first_name,last_name) as Names from patients
+ join province_names on 
+ province_names.province_name = patients.ames
+ 
